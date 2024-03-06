@@ -5,28 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas</title>
     <link rel="stylesheet" href="/style/style.css">
+    <script src="/scripts/scrpt.js"></script>
 </head>
+
+
 <body>
-    <header>
-        <h1>Conversor de Moedas</h1>
-    </header>
-    <div>
+    <div class="fixarTitulo">
+        <header>
+            <h1>Conversor de Moedas</h1>
+        </header>
+    </div>
+    <div class="brl">
         <h2>BRL > USD</h4>
         <h3 id="cotacao"></h3>
-        <input type="Valor" id="valorReal"/><br>
+        <input type="Valor" id="valorReal" placeholder="Real"/><br>
         <button type="submit">Converter</button>
-        <h4>Info</h4>
+        <h4>Dólar:</h4>
     </div>
-    <div>
+    <div class="usd">
         <h2>USD > BRL</h2>
         <h3 id="cotacao"></h3>
-        <input type="Valor" id="valorDolar"><br>
+        <input type="Valor" id="valorDolar" placeholder="Dólar"><br>
         <button type="submit">Converter</button>
+        <h4>Real:</h4>
     </div>
-    <footer>
-        Projeto de Estudos de Ruan Blotta, 2024.
-    </footer>
-
-    <script src="/scripts/scrpt.js"></script>
+    <div>
+        <footer class="fixarRodape">
+            Projeto de Estudos de Ruan Blotta, 2024.
+        </footer>   
+    </div>
+    
+   
 </body>
+ 
 </html>
